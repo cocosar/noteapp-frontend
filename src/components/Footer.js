@@ -2,7 +2,7 @@ import React from "react"
 
 const Footer = () => {
 	const footerStyle = {
-		color: "green",
+		color: "black",
 		fontStyle: "italic",
 		fontSize: 16,
 	}
@@ -11,9 +11,11 @@ const Footer = () => {
 		<div style={footerStyle}>
 			<br />
 			<em>
-				Note app, Department of Computer Science, University of Helsinki
-				2021
+				Note app, codeada de principio a fin por @cocosar y deployada en Heroku
 			</em>
+            <p>
+                Stack: React, Redux, Nodejs, Express y MongoDB.
+            </p>
 		</div>
 	)
 }
